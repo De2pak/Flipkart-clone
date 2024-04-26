@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.searchbar {
+  display: flex;
+}
+.searchbar img {
+  width: 30px;
+  background-color: #f1f5ff;
+}
+.searchbar input {
+  background-color: #f1f5ff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  border: none;
+  border-radius: 2%;
+  width: 30rem;
+  height: 2.5rem;
+}
+.login {
+  display: flex;
+}
+.login select {
+  border: none;
+  width: 5rem;
+}
+.start {
+  display: flex;
+  background-color: rebeccapurple;
+  color: aqua;
+  font-size: 2rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+.cart img {
+  width: 30px;
+}
+.seller {
+  display: flex;
+  align-items: center;
+}
+.seller img {
+  width: 30px;
+}
