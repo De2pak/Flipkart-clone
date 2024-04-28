@@ -157,6 +157,9 @@ header {
   width:80%;
   height:80%;
 }
+.card h4{
+  color: green;
+}
 
 /* Css for section 4 */
 
@@ -168,7 +171,7 @@ header {
   width: 35%;
   height: 89vh;
   background-color: white;
-  margin: 1rem 0rem 0 0.8rem; 
+  margin: 1rem 0 0 0.8rem; 
 
 }
 .summer h2{
@@ -202,4 +205,60 @@ header {
   width: 65%;
   height: 89vh;
   margin: 1rem 0.8rem 0 0.8rem;
+ 
 }
+#TspBtn{
+  background-color: white;
+  width: 15vw;
+  height: 8vh;
+  border-radius: .5rem;
+  outline: none;
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 10rem;
+  margin-top: 30rem;
+  justify-content: center;
+  
+  
+}
+
+/* CSS for section 5 */
+
+.section6{
+  display: flex;
+}
+
+.summerNext{
+  width: 32.1%;
+  height: 89vh;
+  background-color: white;
+  margin: 1rem 0 0 0.8rem;  
+}
+.summerNext h2{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardSn{
+  padding-top: .5rem;
+  border: 1px solid black;
+  width: 14vw;
+  height: 36vh;
+  
+
+}
+.cardSn img{
+  width:80%;
+  height:80%;
+}
+.cardSn h4{
+  color: green;
+}
+#preTag{
+  overflow: hidden;
+}
+
+
+
+
+
