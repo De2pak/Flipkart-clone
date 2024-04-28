@@ -2,28 +2,36 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: #eff0f5;
+}
 header {
-  margin-top: 1rem;
+  background-color: white;
+  height: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .searchbar {
+  width: max-content;
   display: flex;
-}
-.searchbar img {
-  width: 30px;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 15px;
   background-color: #f1f5ff;
 }
 .searchbar input {
-  background-color: #f1f5ff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
+  background-color: transparent;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  outline: none;
   border: none;
   border-radius: 2%;
-  width: 30rem;
-  height: 2.5rem;
+  font-weight: none;
+  width: 35rem;
+  height: 2rem;
 }
 .login {
   display: flex;
@@ -52,4 +60,146 @@ header {
 }
 .seller img {
   width: 30px;
+}
+
+/* CSS for top section of page under main head*/
+
+.topSection {
+  background-color: white;
+  height: 8rem;
+  margin: 0.5rem 0.8rem 0 0.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.topSection a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.section2 {
+  background-color: white;
+  height: 15rem;
+  margin: 0.5rem 0.8rem 0 0.8rem;
+  display: flex;
+}
+.sliderImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+   
+}
+.sliderImg a{
+  
+  animation: 5s sliderimage infinite;
+}
+.sliderImg a img {
+  height: 100%;
+  
+
+
+}
+#btn1 {
+  background-color: white;
+  width: 3vw;
+  height: 13vh;
+  margin-top: 4rem;
+  position: absolute;
+  z-index: 5;
+  border-radius: 0 0.2rem 0.2rem 0;
+  outline: none;
+  border: none;
+}
+#btn2 {
+  background-color: white;
+  width: 3vw;
+  height: 13vh;
+  margin-top: 4rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+  position: absolute;
+  margin-left: 78.3rem;
+  border: none;
+  outline: none;
+}
+
+
+/* CSS for section 3 */
+
+.section3{
+  background-color: white;
+  height: 20rem;
+  margin: 0.5rem 0.8rem 0 0.8rem; 
+}
+.heading1 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.card{
+  padding-top: .5rem;
+  border: 1px solid black;
+  width: 15vw;
+  height: 36vh;
+  
+
+}
+.card img{
+  width:80%;
+  height:80%;
+}
+
+/* Css for section 4 */
+
+
+.section4{
+  display: flex;
+}
+.summer{
+  width: 35%;
+  height: 89vh;
+  background-color: white;
+  margin: 1rem 0rem 0 0.8rem; 
+
+}
+.summer h2{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.summerCards1{
+  display: flex;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+
+}
+.summerCards2{
+  display: flex;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+
+}
+
+/* Css for Top selling smartphones area */
+
+.TopSellingSmartphones{
+  background-image: url(images/top\ selling\ phones.jpg);
+  background-size: cover;
+  width: 65%;
+  height: 89vh;
+  margin: 1rem 0.8rem 0 0.8rem;
 }
