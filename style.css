@@ -7,10 +7,13 @@ body {
 }
 header {
   background-color: white;
-  height: 5rem;
+  height: 15vh;
+  width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
 }
 .searchbar {
   width: max-content;
@@ -67,7 +70,7 @@ header {
 .topSection {
   background-color: white;
   height: 8rem;
-  margin: 0.5rem 0.8rem 0 0.8rem;
+  margin: 6.7rem 0.8rem 0 0.8rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -120,7 +123,7 @@ header {
   margin-top: 4rem;
   border-radius: 0.2rem 0 0 0.2rem;
   position: absolute;
-  margin-left: 78.3rem;
+  margin-left: 77.3rem;
   border: none;
   outline: none;
 }
